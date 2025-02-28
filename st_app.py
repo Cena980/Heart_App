@@ -4,6 +4,7 @@ import numpy as np
 # Streamlit UI
 st.title("❤️ Heart Disease Prediction App")
 st.write("Enter patient details to predict heart disease risk.")
+st.write("Ali Sina Nazari")
 
 # Input fields
 age = st.number_input("Age", min_value=1, max_value=120, value=50)
